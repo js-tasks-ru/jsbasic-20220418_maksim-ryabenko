@@ -12,7 +12,7 @@ function print(text) {
 function isValid(name) {
   let maxlength = 4;
 
-  if (name >= maxlength && name !== null) {
+  if (name && name.length >= 4 && name.indexOf(' ') === -1) {
     return true;
   } else {
     return false;
