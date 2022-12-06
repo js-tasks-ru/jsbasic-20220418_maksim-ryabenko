@@ -1,3 +1,7 @@
 function namify(users) {
-  // ваш код...
+  let result = [];
+  result = users.map((item) => {
+    return item.name;
+  })
+  return result;
 }
