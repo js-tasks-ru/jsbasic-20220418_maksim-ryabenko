@@ -1,4 +1,5 @@
 function getMinMax(str) {
+
   str = str.split(' ');
   str = str.filter((item) => parseInt(item));
   str = str.map((item) => {
@@ -11,4 +12,5 @@ function getMinMax(str) {
     min: minNum,
     max: maxNum,
   }
+
 }

@@ -1,4 +1,5 @@
 function showSalary(users, age) {
+
   let newUsers= [];
   let result = [];
   
@@ -10,4 +11,5 @@ function showSalary(users, age) {
       result += (`${item.name}, ${item.balance}`);
   })
   return result;
+
 }
