@@ -4,16 +4,16 @@ function initCarousel() {
   let rightBtn = document.querySelector('.carousel__arrow_right');
   let carouselList = document.querySelector('.carousel__inner');
   let slideWidth = document.querySelector('.carousel__slide').offsetWidth;
-  let transformWidth = 0;
+  let transforWidth = 0;
 
   rightBtn.addEventListener('click', () => {
-    transformWidth -= slideWidth
-    changeSlide('next', ++counter, transformWidth)
+    transforWidth -= slideWidth
+    changeSlide('next', ++counter, transforWidth)
   })
 
   leftBtn.addEventListener('click', () => {
-    transformWidth += slideWidth
-    changeSlide('prev', --counter, transformWidth);
+    transforWidth += slideWidth
+    changeSlide('prev', --counter, transforWidth);
   })
 
   leftBtn.style.display = 'none';
