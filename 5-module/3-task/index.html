@@ -9,10 +9,10 @@
   <main>
     <div class="container" data-carousel-holder>
       <div class="carousel">
-        <div class="carousel__arrow carousel__arrow_right">
+        <div class="carousel__arrow carousel__arrow_right" onclick="initCarousel">
           <img src="/assets/images/icons/angle-icon.svg" alt="icon">
         </div>
-        <div class="carousel__arrow carousel__arrow_left">
+        <div class="carousel__arrow carousel__arrow_left" onclick="initCarousel">
           <img src="/assets/images/icons/angle-left-icon.svg" alt="icon">
         </div>
 
@@ -68,6 +68,7 @@
   <script src="./index.js">
   </script>
   <script>
+
     if (initCarousel) {
       initCarousel();
     }
