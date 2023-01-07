@@ -6,5 +6,6 @@ function toggleText() {
     
     let element = document.querySelector('#text');
     element.hidden = !element.hidden;
+    
   })
 }
