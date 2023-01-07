@@ -1,4 +1,5 @@
 function initCarousel() {
+  
   let counter = 0;
   let leftBtn = document.querySelector('.carousel__arrow_left');
   let rightBtn = document.querySelector('.carousel__arrow_right');
