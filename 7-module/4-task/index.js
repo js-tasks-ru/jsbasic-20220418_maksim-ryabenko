@@ -8,6 +8,7 @@ export default class StepSlider {
     this.addEventListeners();
     this.setValue(value);
   }
+  
   render() {
     this.elem = createElement(`
       <div class="slider">
