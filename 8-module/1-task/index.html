@@ -69,10 +69,12 @@
       products: [],
 
       isEmpty() {
+        console.log('cart:', cart)
         return this.products.length === 0;
       },
 
       getTotalCount() {
+        console.log('cart:', cart)
         return this.products.length;
       },
 
@@ -100,6 +102,8 @@
 
       cartIcon.update(cart);
     };
+
+    console.log('cart:', cart)
 
   </script>
 </body>
