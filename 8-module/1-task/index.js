@@ -69,7 +69,6 @@ export default class CartIcon {
             left: this.leftIndent
           });
         } else if (this.pageOffset < 50) {
-          console.log('--');
           Object.assign(this.elem.style, {
             position: '',
             top: '',
